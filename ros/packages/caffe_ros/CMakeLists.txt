@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.1)
 project(caffe_ros)
-
+## Ignore all Katkins here......writing for melodic
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
@@ -14,7 +14,7 @@ find_package(catkin REQUIRED COMPONENTS
 find_package(CUDA)
 # OpenCV 3.3.1 is default on Jetson starting JetPack 3.2. Might be required to install in simulation environment.
 # PATHS is required as ROS Kinetic installs its own version of OpenCV 3.3.1 without CUDA support.
-find_package(OpenCV 3.3.1 REQUIRED
+find_package(OpenCV 4.1.1 REQUIRED
   CONFIG
   PATHS /usr/local /usr
   NO_DEFAULT_PATH
