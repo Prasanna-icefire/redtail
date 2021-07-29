@@ -1,0 +1,2 @@
+arducam_stereo_camera:caffe_ros:gscam:px4_controller:realsense-ros/realsense2_camera:realsense-ros/realsense2_description
+-DCATKIN_DEVEL_PREFIX=/home/icefire/ws/devel -DCMAKE_INSTALL_PREFIX=/home/icefire/ws/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/home/icefire/ws/devel
+
+Name: px4_controller
+Description: Description of px4_controller
+Version: 0.0.0
+Cflags: -I/home/icefire/ws/src/px4_controller/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -lpx4_controller
+Requires: roscpp std_msgs geometry_msgs eigen_conversions

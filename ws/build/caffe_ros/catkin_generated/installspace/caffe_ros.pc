@@ -1,0 +1,8 @@
+prefix=/home/icefire/ws/install
+
+Name: caffe_ros
+Description: Description of caffe_ros
+Version: 0.1.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 
